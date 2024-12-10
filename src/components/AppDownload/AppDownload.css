@@ -6,6 +6,11 @@
     font-weight: 500;
 }
 
+.app-download span {
+    color: rgb(139,0,253);
+    color: linear-gradient(265deg, rgba(139,0,253,1) 0%, rgba(158,0,253,1) 56%, rgba(215,0,252,1) 100%);
+}
+
 .app-download-platforms{
     display: flex;
     justify-content: center;

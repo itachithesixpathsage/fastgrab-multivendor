@@ -11,9 +11,9 @@
 }
 
 .navbar .logo img{
-    width: 50px; /* Adjust to your logo size */
+    width: 40px; /* Adjust to your logo size */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Spacing between logo and text */
+    margin-right: 6px; /* Spacing between logo and text */
 }
 
 .navbar .logo h1{
