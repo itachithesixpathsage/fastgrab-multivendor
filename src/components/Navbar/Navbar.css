@@ -75,9 +75,14 @@
 }
 
 @media (max-width:1050px) {
-    .navbar .logo {
-        width: 140px;
-    }
+   
+
+   .navbar .logo {
+        width: 45px; /* Reduce logo size */
+      }
+      .navbar .logo h1 {
+        font-size: 18px; /* Slightly smaller text */
+      }
 
     .navbar-menu{
         gap: 20px;
@@ -99,9 +104,18 @@
 }
 
 @media (max-width:900px) {
-    .navbar .logo {
-        width: 120px;
-    }
+     .navbar .logo{
+        flex-direction: column; /* Stack logo and text vertically */
+        align-items: center; /* Center-align vertically stacked items */
+      }
+      .navbar .logo {
+        width: 40px; /* Further reduce logo size */
+        margin-right: 0; /* No need for margin between logo and text */
+        margin-bottom: 10px; /* Space between logo and text when stacked */
+      }
+      .navbar .logo h1 {
+        font-size: 16px; /* Smaller text size for smaller screens */
+      }
 
     .navbar-menu{
         gap: 15px;
@@ -124,6 +138,7 @@
 }
 
 @media (max-width:750px) {
+    
   
     .navbar-menu{
         display: none;
